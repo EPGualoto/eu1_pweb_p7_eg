@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/formularioProfesor.css">
+    <script src="../js/formularioProfesor.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <header> Profesor </header>
+            <nav></nav>
+            <section>
+                <p id="idMensaje" style="display: none;"></p>
+                <p id="idtext">C&#233;dula</p>
+                <p id="idCedula" type="cedula"><input type="text"></p>
+                <p id="idtext">Nombre</p>
+                <p id="idNombre" type="nombre"><input type="text"></p>
+                <p id="idtext">Apellido</p>
+                <p id="idApellido" type="apellido"><input type="text"></p>
+                <div class="btnguardar">
+                    <button onclick="vacio('idtext','idMensaje')">Guardar</button>
+                </div>
+
+                <div class="json">
+                    <p id="idtext">Json</p>
+                    <p id="idJson"><input type="text"></p>
+                </div>
+
+                <div class="btnjson">
+                    <button>JSON</button>
+                </div>
+            </section>
+            <footer></footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
